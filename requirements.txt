@@ -1,4 +1,3 @@
 Flask
 FLask-RESTful
 FLask-SQLAlchemy
-dotenv
