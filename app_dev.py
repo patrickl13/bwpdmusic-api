@@ -3,6 +3,8 @@ from flask_restful import Api
 from resources.tune import Tune, TuneList
 import os
 from dotenv import load_dotenv
+import pymysql
+
 
 load_dotenv()
 

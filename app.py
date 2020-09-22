@@ -2,6 +2,7 @@ from flask import Flask
 from flask_restful import Api
 from resources.tune import Tune, TuneList
 import os
+import pymysql
 
 RDS_ENDPOINT = os.getenv('RDS_ENDPOINT')
 RDS_DB_NAME = os.getenv('RDS_DB_NAME')
